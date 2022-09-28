@@ -11,22 +11,22 @@ package com.mycompany.csc325_oop_designreview_lab;
  */
 public abstract class Student extends Human {
 
-    private int GPA;
+    private int credits;
 	// ToDo 1: Make this class a child of Human
 	
 	// ToDo 2: Fix the resulting errors
 	
 	// ToDo 3: Add a field for GPA and create setter and getter        
-        public Student(String name, short age,int GPA){
+        public Student(String name, short age, int credits){
             
             
         }
-         public int getGPA(){
-            return GPA;
+         public int getCredit(){
+            return credits;
         }
          
-        public void setGPA (int GPA){
-            this.GPA = GPA;
+        public void setCredits (int credits){
+            this.credits = credits;
         }
        
     
