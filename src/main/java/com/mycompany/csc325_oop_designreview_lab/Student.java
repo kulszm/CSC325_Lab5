@@ -10,6 +10,8 @@ package com.mycompany.csc325_oop_designreview_lab;
  * @author MoaathAlrajab
  */
 public abstract class Student extends Human {
+
+    private int GPA;
 	// ToDo 1: Make this class a child of Human
 	
 	// ToDo 2: Fix the resulting errors
@@ -19,12 +21,14 @@ public abstract class Student extends Human {
             
             
         }
-        
-        public void setGPA (int GPA){
-        }
-        public int setGpa (int GPA){
+         public int getGPA(){
             return GPA;
         }
+         
+        public void setGPA (int GPA){
+            this.GPA = GPA;
+        }
+       
     
 	// ToDo 4: Add comments to your code
 
