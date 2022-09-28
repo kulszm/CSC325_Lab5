@@ -18,6 +18,7 @@ public abstract class Student extends  Human {
 	
 	// ToDo 3: Add a field for GPA and create setter and getter
         Student(String name, short age,int credits){
+           // super();
             this.credits  = credits;
             int gpa = 0;
         }
