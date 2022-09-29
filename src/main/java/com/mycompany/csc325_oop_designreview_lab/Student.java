@@ -22,7 +22,7 @@ public abstract class Student extends Human {
             this.gpa = 0;
         }
         
-        public int getGPA(int gpa){
+        public int getGPA(){
             return gpa;
         }
         
