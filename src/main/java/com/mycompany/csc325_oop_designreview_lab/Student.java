@@ -9,27 +9,37 @@ package com.mycompany.csc325_oop_designreview_lab;
  *
  * @author MoaathAlrajab
  */
-public abstract class Student extends  Human {
+public abstract class Student extends Human {
+    
 
-    private final int credits;
 	// ToDo 1: Make this class a child of Human
-	
+	private int gpa;
 	// ToDo 2: Fix the resulting errors
 	
 	// ToDo 3: Add a field for GPA and create setter and getter
-        Student(String name, short age,int credits){
-           // super();
-            this.credits  = credits;
-            int gpa = 0;
+        public Student(String name, short age){
+           super(name, age);
+            this.gpa = 0;
         }
         
         public int getGPA(int gpa){
             return gpa;
         }
         
-        public void setGPA(){
+        public void setGPA(int gpa){
+            this.gpa = gpa;
         }
 	
+         @Override
+    public String getAddress() {
+        return this.address;
+    }
+
+    @Override
+    public void setAddress(String address) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+    
 	// ToDo 4: Add comments to your code
 
 }
